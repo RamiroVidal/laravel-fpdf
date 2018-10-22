@@ -1,9 +1,5 @@
 # Laravel 5 package for Fpdf
 
-[![Latest Stable Version](https://poser.pugx.org/codedge/laravel-fpdf/v/stable?format=flat-square)](https://packagist.org/packages/codedge/laravel-fpdf)
-[![Total Downloads](https://poser.pugx.org/codedge/laravel-fpdf/downloads?format=flat-square)](https://packagist.org/packages/codedge/laravel-fpdf)
-[![StyleCI](https://styleci.io/repos/59506451/shield)](https://styleci.io/repos/59506451)
-[![License](https://poser.pugx.org/codedge/laravel-fpdf/license?format=flat-square)](https://packagist.org/packages/codedge/laravel-fpdf)
 
 This repository implements a simple [ServiceProvider](https://laravel.com/docs/master/providers)
 that creates a singleton instance of the Fpdf PDF library - easily accessible via a [Facade](https://laravel.com/docs/master/facades) in [Laravel 5](http://laravel.com).  
@@ -12,7 +8,7 @@ See [FPDF homepage](http://www.fpdf.org/) for more information about the usage.
 
 ## Installation using [Composer](https://getcomposer.org/)
 ```sh
-$ composer require codedge/laravel-fpdf
+$ composer require RamiroVidal/laravel-fpdf
 ```
 
 ## Usage
@@ -84,3 +80,6 @@ Route::get('/', function (Codedge\Fpdf\Fpdf\Fpdf $fpdf) {
 
 });
 ```
+
+## Add Support to use images from variables.
+More info http://www.fpdf.org/en/script/script45.php
